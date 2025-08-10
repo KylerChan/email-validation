@@ -19,7 +19,6 @@ submit.addEventListener("click", async (e) => {
         
         if (data.status === "valid") {
             result.innerText = `${emailToBeChecked} is valid!`
-            // Optionally, remove red classes and add green classes if needed
             result.classList.remove("text-center", "mt-6", "bg-red-200", "text-red-600", "py-2", "rounded-lg")
             result.classList.add("text-center", "mt-6", "bg-green-200", "text-green-600", "py-2", "rounded-lg")
         } else {
